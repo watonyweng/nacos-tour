@@ -16,6 +16,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @Controller
 @RequestMapping("discovery")
 public class DiscoveryController {
+    
     @NacosInjected
     private NamingService namingService;
 
@@ -24,4 +25,5 @@ public class DiscoveryController {
     public List<Instance> get(@RequestParam String serviceName) throws NacosException {
         return namingService.getAllInstances(serviceName);
     }
+
 }

@@ -15,7 +15,7 @@
 *.rar
 
 ### Maven Files ###
-/.mvn
+.mvn
 
 ### STS Files ###
 .apt_generated
@@ -27,7 +27,6 @@
 .sts4-cache
 
 ### IntelliJ IDEA Files ###
-.idea
 *.iws
 *.iml
 *.ipr
