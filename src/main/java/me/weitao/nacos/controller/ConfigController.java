@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
+/**
+ * @author WaTony Weng
+ * @date 2020/07/02
+ */
+
 @Controller
 @RequestMapping("config")
 public class ConfigController {
