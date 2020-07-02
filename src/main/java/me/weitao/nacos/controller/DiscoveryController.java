@@ -13,6 +13,11 @@ import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
+/**
+ * @author WaTony Weng
+ * @date 2020/07/02
+ */
+
 @Controller
 @RequestMapping("discovery")
 public class DiscoveryController {
